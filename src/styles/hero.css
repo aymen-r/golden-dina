@@ -1,0 +1,38 @@
+#myVideo {
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.video-wrapper {
+  /* Telling our absolute positioned video to 
+  be relative to this element */
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  /* Will not allow the video to overflow the 
+  container */
+  overflow: hidden;
+
+  /* Centering the container's content vertically 
+  and horizontally */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.slider-text {
+  height: 750px !important;
+}
